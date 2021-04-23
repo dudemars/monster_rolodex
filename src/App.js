@@ -5,7 +5,7 @@ import { CardList } from "./components/card-list/card-list.component.jsx";
 import { SearchBox } from "./components/search-box/search-box.component.jsx";
 
 class App extends Component {
-  constructor() {
+  constructor() { 
     super();
 
     this.state = {
