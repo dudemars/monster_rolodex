@@ -35,11 +35,11 @@ class App extends Component {
         <SearchBox
           placeholder="seach monsters"
           handleChange={this.handleChange}
-        ></SearchBox>
+        />
         <CardList
           monsters={filteredMonsters}
           searchField={searchField}
-        ></CardList>
+        />
       </div>
     );
   }
